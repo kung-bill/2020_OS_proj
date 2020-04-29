@@ -1,0 +1,14 @@
+sudo ./demo < data/TIME_MEASUREMENT.txt | tee output/TIME_MEASUREMENT_stdout.txt
+sudo dmesg | grep Project1
+
+sudo ./demo < data/FIFO_1.txt | tee output/FIFO_1_stdout.txt
+sudo dmesg | grep Project1
+
+sudo ./demo < data/PSJF_2.txt | tee output/PSTF_2_stdout
+sudo dmesg | grep Project1
+
+sudo ./demo < data/RR_3.txt | tee output/RR_3_stdout.txt
+sudo dmesg | grep Project1
+
+sudo ./demo < data/SJF_4.txt | tee output/SJF_4_stdout.txt
+sudo dmesg | grep Project1
