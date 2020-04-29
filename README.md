@@ -1,2 +1,2 @@
 # OS_project1_2020
-薛智文 作業系統 2020 春
+Operating System 2020 Spring 
